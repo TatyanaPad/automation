@@ -1,0 +1,9 @@
+SECRET_KEY = '3f611345ffbe00868b337e423e771e600d80fba91d1a32ea8e9dc4c67abb277a'
+
+MYSQL_USER = 'user'
+MYSQL_PASSWORD = 'user'
+MYSQL_HOST = 'my-mysql-container'
+MYSQL_DATABASE = 'baseWeb'
+
+ADMIN_ROLE_ID = 1
+MODER_ROLE_ID = 2
