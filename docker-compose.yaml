@@ -22,10 +22,10 @@ services:
       - backend
 
   lab1:
-    build: ./
-    volumes:
-      - ./:/code
+    image: tatvlad/examdev_lab1:latest
     ports:
       - "8001:8001"
+    volumes:
+      - ./:/code
     networks:
       - backend
